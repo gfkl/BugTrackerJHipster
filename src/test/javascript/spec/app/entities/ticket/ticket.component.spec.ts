@@ -8,8 +8,8 @@ import { TicketComponent } from 'app/entities/ticket/ticket.component';
 import { TicketService } from 'app/entities/ticket/ticket.service';
 import { Ticket } from 'app/shared/model/ticket.model';
 
-describe('Component Tests', () => {
-  describe('Ticket Management Component', () => {
+fdescribe('Component Tests', () => {
+  fdescribe('Ticket Management Component', () => {
     let comp: TicketComponent;
     let fixture: ComponentFixture<TicketComponent>;
     let service: TicketService;
